@@ -51,7 +51,7 @@ function displayItems() {
 	var query = "SELECT * FROM products";
 	connection.query(query, (err,res) => {
 		if (err) {console.log(err)};
-		console.log(res);
+		console.log(JSON.stringify(res));
 	})
 }
 
