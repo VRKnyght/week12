@@ -1,0 +1,23 @@
+{
+  "name": "week12",
+  "version": "1.0.0",
+  "description": "bamazon clone",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VRKnyght/week12.git"
+  },
+  "author": "Alex Brant (VRKnyght@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VRKnyght/week12/issues"
+  },
+  "homepage": "https://github.com/VRKnyght/week12#readme",
+  "dependencies": {
+    "inquirer": "^5.1.0",
+    "mysql": "^2.15.0"
+  }
+}
